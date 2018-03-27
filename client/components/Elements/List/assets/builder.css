@@ -1,0 +1,24 @@
+.builder-element-list .builder-add-element {
+  visibility: hidden;
+}
+.builder-element-list:hover > .builder-add-element {
+  visibility: visible;
+  padding-left: 20px;
+}
+.builder-element-list > .draggable-item > .factory-element {
+  position: relative;
+  float: right;
+  color: white;
+}
+.builder-element-list > .draggable-item > .builder-draggable-handle {
+  position: relative;
+  float: left;
+  padding: 5px;
+  visibility: hidden;
+  color: white;
+  font-weight: bolder;
+  cursor: move;
+}
+.builder-element-list > .draggable-item:hover > .builder-draggable-handle {
+  visibility: visible;
+}

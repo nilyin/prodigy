@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "build/webpack.base.js"
+      }
+    }
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:prettier/recommended",
+    "plugin:vue/recommended"
+  ],
+  "plugins": [
+    "prettier",
+    "vue",
+    "flowtype-errors"
+  ],
+  "env": {
+    "commonjs": true
+  },
+  "rules": {
+    "no-unused-vars": 0,
+    "import/extensions": ["error", "always", {
+      "js": "never",
+      "vue": "never"
+    }],
+    "vue/valid-template-root": 0,
+    "vue/no-confusing-v-for-v-if": 0,
+    "prettier/prettier": "error",
+    "flowtype-errors/show-errors": 2
+  }
+}

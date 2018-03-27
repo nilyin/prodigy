@@ -1,0 +1,40 @@
+.edit-popover {
+  z-index: 200000000000000000000000000000000000000000000000000000000000000000000000000000000;
+  margin: 10px 0!important;
+  padding: 2px!important;
+  background: #323c47!important;
+  border-radius: 26px!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.edit-popover-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.edit-popover-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 0;
+  background: #323c47;
+  border: 0;
+  fill: #fff;
+  color: #fff;
+  width: 42px;
+  height: 42px;
+  border-radius: 42px;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+}
+.edit-popover-button:hover {
+  background: #283039;
+}
+.edit-popover-button:first-child {
+  margin-left: 5px;
+}

@@ -1,0 +1,9 @@
+.controller-buttons {
+  position: fixed;
+  z-index: 200;
+  bottom: 30px;
+  right: 40px;
+}
+.controller-buttons button:not(:last-child) {
+  margin-right: 20px;
+}
