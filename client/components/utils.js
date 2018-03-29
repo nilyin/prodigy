@@ -49,8 +49,6 @@ export const getPropertyRulesForBuilder = configProp => {
       }
     });
   }
-  const types =
-    configProp.type instanceof Array ? configProp.type : [configProp.type];
   return res;
 };
 export const metaPropsByElementType = async elementType => {

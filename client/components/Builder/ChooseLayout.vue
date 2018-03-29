@@ -25,12 +25,8 @@
 </template>
 
 <script>
-import { mapMutations, mapActions } from "vuex";
-import {
-  convertSlotNamesToIds,
-  getConfigLayouts,
-  getLayoutElementType
-} from "components/utils";
+import { mapActions } from "vuex";
+import { getConfigLayouts, getLayoutElementType } from "components/utils";
 
 export default {
   asyncComputed: {

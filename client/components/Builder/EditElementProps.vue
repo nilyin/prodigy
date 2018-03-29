@@ -24,7 +24,6 @@
 
 <script>
 import {
-  getPropsForBuilder,
   getPropertyRulesForBuilder,
   metaPropsByElementType
 } from "components/utils";

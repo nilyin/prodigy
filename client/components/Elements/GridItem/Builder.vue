@@ -5,7 +5,6 @@
 <script>
 import BaseElement from "components/Builder/BaseElement";
 import EditSlot from "components/Builder/EditSlot";
-import { mapMutations } from "vuex";
 import Base from "./Base";
 
 export default {

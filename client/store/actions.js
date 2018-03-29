@@ -8,7 +8,7 @@ const addNewElementByType = async (
   store,
   { type, ownerSlotId = null, props = {}, slotsElements = null }
 ) => {
-  const { commit, state } = store;
+  const { commit } = store;
   const cfg = await getElementConfigByType(type);
   const slotNamesToIds = convertSlotNamesToIds(cfg.SLOT_NAMES || []);
   const propsDefault = await metaPropsDefaultValuesByElementType(type);
