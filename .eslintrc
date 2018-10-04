@@ -27,6 +27,7 @@
   },
   "rules": {
     "no-unused-vars": ["error", { "args": "none" }],
+    "linebreak-style": ["error", "windows"],
     "import/extensions": ["error", "always", {
       "js": "never",
       "vue": "never"
